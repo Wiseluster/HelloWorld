@@ -12,6 +12,7 @@ main:
 	pushl $msg
 	call puts
 	addl $4, %esp
+	xorl %eax, %eax
 	movl %ebp, %esp
 	popl %ebp
 	ret
