@@ -2,6 +2,6 @@ import std.stdio;
 
 int main()
 {
-	writefln("Hello, world!");
+	writeln("Hello, world!");
 	return 0;
 }
